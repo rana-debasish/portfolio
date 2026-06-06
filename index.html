@@ -1,0 +1,528 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Debasish — Java & React Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Grain overlay for texture -->
+    <div class="grain"></div>
+
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+      <div class="nav-inner">
+        <a href="#" class="logo">
+          <span class="logo-bracket">[</span>db<span class="logo-bracket"
+            >]</span
+          >
+        </a>
+        <div class="nav-links" id="navLinks">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#stack" class="nav-link">Stack</a>
+          <a href="#work" class="nav-link">Work</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+      <div class="hero-content">
+        <div class="hero-label">
+          <span class="status-dot"></span>
+          <span class="mono"
+            >Available for internships & placements — 2026</span
+          >
+        </div>
+
+        <h1 class="hero-title">
+          <span class="line">Hey, I'm Debasish.</span>
+          <span class="line">I build stuff with</span>
+          <span class="line highlight">Java & React.</span>
+        </h1>
+
+        <p class="hero-desc">
+          Final year CSE at KIIT University. I like solving real problems,
+          writing clean code, and learning things the hard way — by building
+          them.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">
+            <span>See what I've built</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path
+                d="M3 8h10M9 4l4 4-4 4"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </a>
+          <a
+            href="#"
+            download="Debasish_Rana_Resume.pdf"
+            class="btn btn-secondary"
+          >
+            <span>Resume</span>
+          </a>
+        </div>
+
+        <div class="hero-meta">
+          <div class="meta-item">
+            <span class="mono meta-num">04</span>
+            <span class="meta-label">Projects</span>
+          </div>
+          <div class="meta-item">
+            <span class="mono meta-num">03+</span>
+            <span class="meta-label">Years coding</span>
+          </div>
+          <div class="meta-item">
+            <span class="mono meta-num">2</span>
+            <span class="meta-label">Capstones</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="code-window">
+          <div class="code-header">
+            <div class="code-dots"><span></span><span></span><span></span></div>
+            <span class="mono code-filename">Debasish.java</span>
+          </div>
+          <div class="code-body">
+            <pre><code><span class="code-kw">public class</span> <span class="code-class">Debasish</span> <span class="code-kw">implements</span> <span class="code-class">Developer</span> {
+  <span class="code-kw">private</span> String[] stack = {<span class="code-str">"Java"</span>, <span class="code-str">"React"</span>, <span class="code-str">"Spring"</span>};
+  <span class="code-kw">private</span> String status = <span class="code-str">"Learning..."</span>;
+
+  <span class="code-kw">public void</span> <span class="code-fn">build</span>() {
+    <span class="code-cmt">// Currently working on:</span>
+    <span class="code-cmt">// - Northstar ATS</span>
+    <span class="code-cmt">// - Financial Crime Detection</span>
+    <span class="code-kw">while</span> (alive) {
+      code();
+      debug();
+      learn();
+    }
+  }
+}</code></pre>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Currently Building Strip -->
+    <section class="strip">
+      <div class="strip-inner">
+        <span class="mono strip-label">Currently building:</span>
+        <div class="strip-items">
+          <span>Northstar Hiring Suite (ATS)</span>
+          <span class="strip-sep">•</span>
+          <span>Financial Crime Detection</span>
+          <span class="strip-sep">•</span>
+          <span>DSA prep for placements</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="about section" id="about">
+      <div class="section-header">
+        <span class="mono section-tag">01</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p class="about-lead">
+            I'm a final-year Computer Science student at KIIT University,
+            Odisha. I got into coding because I wanted to build things that
+            actually work, not just write algorithms on paper.
+          </p>
+
+          <p>
+            These days I'm deep in Spring Boot, system design, and DSA prep for
+            2026 campus placements. I learn best by doing — which is why I have
+            two capstone projects running simultaneously (probably not the
+            smartest idea, but here we are).
+          </p>
+
+          <p>
+            When I'm not debugging, I'm probably reading about backend
+            architecture or trying to understand why my CSS won't center a div.
+          </p>
+
+          <div class="about-facts">
+            <div class="fact">
+              <span class="fact-icon">📍</span>
+              <span>Based in Odisha, India</span>
+            </div>
+            <div class="fact">
+              <span class="fact-icon">🎓</span>
+              <span>KIIT University, Batch 2026</span>
+            </div>
+            <div class="fact">
+              <span class="fact-icon">☕</span>
+              <span>Fueled by coffee and Stack Overflow</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-photo">
+          <div class="photo-placeholder">
+            <span class="mono">your-photo.jpg</span>
+            <small>Replace this div with your actual image</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="stack section" id="stack">
+      <div class="section-header">
+        <span class="mono section-tag">02</span>
+        <h2 class="section-title">Tech Stack</h2>
+        <p class="section-sub">Tools I actually use, not just list for SEO.</p>
+      </div>
+
+      <div class="stack-grid">
+        <div class="stack-category">
+          <h3 class="stack-cat-title">
+            <span class="cat-icon">◆</span>
+            Languages
+          </h3>
+          <div class="stack-items">
+            <span class="stack-item">Java</span>
+            <span class="stack-item">JavaScript</span>
+            <span class="stack-item">HTML/CSS</span>
+            <span class="stack-item">SQL</span>
+          </div>
+        </div>
+
+        <div class="stack-category">
+          <h3 class="stack-cat-title">
+            <span class="cat-icon">◆</span>
+            Frontend
+          </h3>
+          <div class="stack-items">
+            <span class="stack-item">React.js</span>
+            <span class="stack-item">Tailwind CSS</span>
+            <span class="stack-item">Responsive Design</span>
+          </div>
+        </div>
+
+        <div class="stack-category">
+          <h3 class="stack-cat-title">
+            <span class="cat-icon">◆</span>
+            Backend
+          </h3>
+          <div class="stack-items">
+            <span class="stack-item">Spring Boot</span>
+            <span class="stack-item">Node.js</span>
+            <span class="stack-item">Express.js</span>
+            <span class="stack-item">REST APIs</span>
+          </div>
+        </div>
+
+        <div class="stack-category">
+          <h3 class="stack-cat-title">
+            <span class="cat-icon">◆</span>
+            Database & Tools
+          </h3>
+          <div class="stack-items">
+            <span class="stack-item">MySQL</span>
+            <span class="stack-item">MongoDB</span>
+            <span class="stack-item">Git & GitHub</span>
+            <span class="stack-item">Postman</span>
+          </div>
+        </div>
+
+        <div class="stack-category stack-learning">
+          <h3 class="stack-cat-title">
+            <span class="cat-icon">◈</span>
+            Learning
+          </h3>
+          <div class="stack-items">
+            <span class="stack-item">AWS</span>
+            <span class="stack-item">TypeScript</span>
+            <span class="stack-item">System Design</span>
+            <span class="stack-item">Docker</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work / Projects -->
+    <section class="work section" id="work">
+      <div class="section-header">
+        <span class="mono section-tag">03</span>
+        <h2 class="section-title">Selected Work</h2>
+        <p class="section-sub">Things I've built while figuring things out.</p>
+      </div>
+
+      <div class="projects-list">
+        <article class="project-card">
+          <div class="project-num mono">01</div>
+          <div class="project-content">
+            <h3 class="project-title">Northstar Hiring Suite</h3>
+            <p class="project-desc">
+              An ATS with HR dashboard for managing job postings, applications,
+              and candidate pipelines. Built because I was tired of clunky job
+              portals.
+            </p>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="link-arrow">Live Demo <span>→</span></a>
+              <a href="#" class="link-arrow">GitHub <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-num mono">02</div>
+          <div class="project-content">
+            <h3 class="project-title">Financial Crime Detection</h3>
+            <p class="project-desc">
+              Capstone project using Spring Boot to detect anomalies in
+              financial transactions. Focused on backend logic and data
+              processing.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Java</span>
+              <span class="tag">Spring Boot</span>
+              <span class="tag">Machine Learning</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="link-arrow">GitHub <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-num mono">03</div>
+          <div class="project-content">
+            <h3 class="project-title">Weather Application</h3>
+            <p class="project-desc">
+              Real-time weather data with a clean UI. My first React project
+              that actually fetched live data from an API without breaking.
+            </p>
+            <div class="project-tags">
+              <span class="tag">React</span>
+              <span class="tag">OpenWeather API</span>
+              <span class="tag">CSS</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="link-arrow">Live Demo <span>→</span></a>
+              <a href="#" class="link-arrow">GitHub <span>→</span></a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-num mono">04</div>
+          <div class="project-content">
+            <h3 class="project-title">Login Auth System</h3>
+            <p class="project-desc">
+              Full auth flow with JWT, bcrypt, and MongoDB. Includes protected
+              routes and session handling. Learned why security matters the hard
+              way.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Node.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">MongoDB</span>
+            </div>
+            <div class="project-links">
+              <a href="#" class="link-arrow">GitHub <span>→</span></a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+      <div class="section-header">
+        <span class="mono section-tag">04</span>
+        <h2 class="section-title">Let's Talk</h2>
+        <p class="section-sub">
+          Have a project, internship, or just want to chat code?
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <p class="contact-lead">
+            I'm open to internships, freelance work, and interesting
+            collaborations. If you've got something cool, hit me up.
+          </p>
+
+          <div class="contact-details">
+            <a href="mailto:debasish@email.com" class="contact-row">
+              <span class="mono contact-key">Email</span>
+              <span class="contact-val">debasish@email.com</span>
+            </a>
+            <div class="contact-row">
+              <span class="mono contact-key">Location</span>
+              <span class="contact-val">Odisha, India</span>
+            </div>
+            <div class="contact-row">
+              <span class="mono contact-key">University</span>
+              <span class="contact-val">KIIT, Batch 2026</span>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a
+              href="https://github.com/rana-debasish"
+              class="social-link"
+              aria-label="GitHub"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://www.linkedin.com/in/debasish-rana-20905a31a"
+              rel="noopener noreferrer"
+              class="social-link"
+              aria-label="LinkedIn"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                />
+              </svg>
+            </a>
+            <a
+              href="https://wa.me/8093192384"
+              class="social-link"
+              aria-label="WhatsApp"
+            >
+              <svg viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <input type="hidden" name="time" id="time" />
+          <div class="form-group">
+            <label class="mono">Name</label>
+            <input type="text" name="name" placeholder="John Doe" required />
+          </div>
+
+          <div class="form-group">
+            <label class="mono">Email</label>
+            <input
+              type="email"
+              name="email"
+              placeholder="john@company.com"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label class="mono">Message</label>
+            <textarea
+              name="message"
+              rows="4"
+              placeholder="Hey Debasish, I saw your portfolio and..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary w-full">
+            <span>Send Message</span>
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+              <path
+                d="M3 8h10M9 4l4 4-4 4"
+                stroke="currentColor"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-inner">
+        <div class="footer-left">
+          <span class="logo">
+            <span class="logo-bracket">[</span>db<span class="logo-bracket"
+              >]</span
+            >
+          </span>
+          <p class="footer-text">
+            Built with patience, caffeine, and too many console.logs.
+          </p>
+        </div>
+        <div class="footer-right">
+          <span class="mono footer-year">© 2026 Debasish</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+      emailjs.init("MyPublicKey");
+
+      document
+        .getElementById("contactForm")
+        .addEventListener("submit", function (e) {
+          e.preventDefault();
+
+          document.getElementById("time").value = new Date().toLocaleString(
+            "en-IN",
+            {
+              weekday: "long",
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+              hour: "numeric",
+              minute: "2-digit",
+              hour12: true,
+            },
+          );
+
+          emailjs
+            .sendForm("MyServiceKey", "MyTemplateKey", this)
+            .then(function () {
+              alert("Message sent successfully!");
+              document.getElementById("contactForm").reset();
+            })
+            .catch(function (error) {
+              console.error(error);
+              alert("Failed to send message.");
+            });
+        });
+    </script>
+  </body>
+</html>
